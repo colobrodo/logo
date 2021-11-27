@@ -1,0 +1,4 @@
+repeat 20 [
+  rotate 170
+  forward 200
+]

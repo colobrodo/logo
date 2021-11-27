@@ -1,0 +1,6 @@
+repeat 20 [
+  repeat 180 [
+    forward 3 rotate 2
+  ] 
+  rotate 3
+]

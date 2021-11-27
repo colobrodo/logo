@@ -1,0 +1,13 @@
+to petal :size
+  repeat 2 [
+    forward :size
+    rotate 50
+    forward :size
+    rotate 120
+  ]
+end
+
+repeat 36 [
+  petal 100
+  rotate 30
+]

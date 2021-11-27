@@ -1,0 +1,34 @@
+to rect :size
+  repeat 4 [rotate 90 forward :size]
+end
+
+to triangle :size
+  repeat 3 [rotate 60 forward :size]
+end
+
+
+rect 400
+penup
+
+forward 200
+pendown
+rotate 45
+rect 200
+penup
+
+forward 100
+pendown
+rotate 45
+rect 100
+penup
+
+forward 50
+pendown
+rotate 45
+rect 50
+penup
+
+forward 25
+pendown
+rotate 45
+rect 25
